@@ -1,5 +1,6 @@
 <?php
 
+//A basic way to connect to the database. 
 $dbUser = "root";
 $dbPass = "";
 $dbDatabase = "test";

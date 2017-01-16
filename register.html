@@ -12,11 +12,14 @@ and open the template in the editor.
     </head>
     <body>
         <div>
+            <!-- The basic login form -->
             <form id=loginForm method=post action=./login.php\><br/>
                 First Name: <input type="text" name="firstName" id="firstName"/><br/>
                 Last Name: <input type="text" name="lastName" id="lastName"/><br/>
                 Email: <input type="text" name="email" id="email"/><br/>
                 Password: <input type="password" name="password" id="password"/><br />
+                
+                <!-- Drop down menu -->
                 I Own: <select name ="catDropDown">
                     <option value=0> 0 </option>
                     <option value=1> 1 </option>
@@ -25,6 +28,8 @@ and open the template in the editor.
                     <option value=4> 4+</option>
                 </select> Cats <br/>
                 What is your favorite pet? <br/>
+                
+                <!-- Several Check boxes -->
                 <input type="checkbox" name="catChkBox" value=TRUE />Cats <br/>
                 <input type="checkbox" name="dogChkBox" value=TRUE />Dogs <br/>
                 <input type="checkbox" name="snakeChkBox" value=TRUE />Snakes <br/>
