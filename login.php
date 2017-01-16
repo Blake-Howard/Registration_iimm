@@ -22,9 +22,6 @@ if (isset($_POST['submitButton'])) {
     } else if (trim($password) == '') {
         die("the Password field was empty");
     }
-       
-    print("</br>" . $catAmount);
-    print("</br></br>");
     
     if (isset($_POST['catChkBox'])) {
         $boolCat = TRUE;
