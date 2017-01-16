@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Registration</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <form id=loginForm method=post action=./login.php\><br/>
+                First Name: <input type="text" name="firstName" id="firstName"/><br/>
+                Last Name: <input type="text" name="lastName" id="lastName"/><br/>
+                Email: <input type="text" name="email" id="email"/><br/>
+                Password: <input type="password" name="password" id="password"/><br />
+                I Own: <select name ="catDropDown">
+                    <option value=0> 0 </option>
+                    <option value=1> 1 </option>
+                    <option value=2> 2 </option>
+                    <option value=3> 3 </option>
+                    <option value=4> 4+</option>
+                </select> Cats <br/>
+                What is your favorite pet? <br/>
+                <input type="checkbox" name="catChkBox" value=TRUE />Cats <br/>
+                <input type="checkbox" name="dogChkBox" value=TRUE />Dogs <br/>
+                <input type="checkbox" name="snakeChkBox" value=TRUE />Snakes <br/>
+                <input type="checkbox" name="spiderChkBox" value=TRUE />Spiders <br/>
+                <input type="checkbox" name="orangeChkBox" value=TRUE />I like oranges <br/>                
+                <button type=submit name=submitButton id=submitButton>Register</button><br/>
+            </form>
+        </div>
+    </body>
+</html>
